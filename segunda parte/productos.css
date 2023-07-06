@@ -1,0 +1,98 @@
+header{
+    background-color: #CCCCCC;
+    padding: 20px 0;
+}
+
+.box{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    padding: 20px;
+}
+
+nav li a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.products{
+    width: 940px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.products li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.products h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.products .description{
+    font-size: 18px;
+}
+
+.products .price{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* efectos con el mouse :hover pasar el mouse por encima*/
+nav li a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+
+.products li:hover{
+    border-color: tomato;
+    box-shadow: 0px 0px 10px -3px;
+}
+
+.products li:hover h2{
+    font-size: 33px;
+}
+
+/* efectos con el mouse :active pulsar el mouse*/
+.products li:active{
+    transform: scale(1);
+    border-color: lightblue;
+    box-shadow: inset 0px 0px 10px -2px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/peak_background.png);
+    padding: 40px;
+}
+
+footer .footer-description{
+    color: white;
+    font-size: 0.8rem;
+    margin: 20px;
+}

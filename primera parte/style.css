@@ -1,0 +1,108 @@
+header {
+  background-color: #CCCCCC;
+  padding: 20px 0;
+}
+
+.box {
+  width: 940px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.box nav {
+  position: absolute;
+  top: 110px;
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  padding: 20px;
+}
+
+nav li a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+.description {
+  background: #CCCCCC;
+  padding: 10px;
+}
+
+.barber_img {
+  width: 100%;
+}
+
+p {
+  text-align: center;
+  margin: 20px;
+}
+
+.mision {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.mision strong {
+  color: red;
+}
+
+.diferential {
+  padding: 30px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+}
+
+.dif__list {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-right: 5%;
+  list-style: circle;
+}
+
+.items {
+  font-style: italic;
+}
+
+.diferential_img {
+  width: 50%;
+}
+
+
+
+
+footer {
+  text-align: center;
+  background: url(/segunda\ parte/imagenes/peak_background.png);
+  padding: 40px;
+}
+
+footer .footer-description {
+  color: white;
+  font-size: 0.8rem;
+  margin: 20px;
+}
